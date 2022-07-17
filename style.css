@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    --background-color: #EAEAEA;
+    --background-color-recipe: #FFFFFF;
+    --main-color: #1B1B1B;
+    --sub-color: #8F8F8F;
+    --generic-color: #39393A;
+    --footer-link-color: #800080;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: var(--generic-color);
+}
+
+h1{
+    font-size: 28px;
+    color: var(--main-color);
+}
+
+h2 {
+    font-size: 20px;
+    color: var(--main-color);
+}
+
+h3 {
+    font-size: 18px;
+}
+
+.recipe-box {
+    background-color: var(--background-color-recipe);
+    width: 70%;
+    margin: 40px auto;
+    padding: 400px auto;
+    border-radius: 14px;
+    padding: 70px 40px;
+}
+
+header {
+    margin-bottom: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.header-figure {
+    text-align: right;
+}
+
+.header-figure img {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.header-figure figcaption {
+    color: var(--sub-color);
+}
+
+main {
+    line-height: 26px;
+    list-style-position: inside;
+}
+
+.ingredients {
+    text-align: left;
+    margin-bottom: 37px;
+}
+
+.ingredients h3 {
+    line-height: 54px;
+}
+
+.prepare-mode {
+    text-align: left;
+    line-height: 26px;
+}
+
+.prepare-mode h3 {
+    line-height: 54px;
+}
+
+footer {
+    color: var(--sub-color);
+    margin-bottom: 30px;
+}
+
+footer a {
+    color: var(--footer-link-color);
+}
